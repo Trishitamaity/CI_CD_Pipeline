@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/ankithtrainer/test-ci-cd-pipeline'
+                git branch: 'main', url: 'https://github.com/Trishitamaity/CI_CD_Pipeline'
             }
         }
 
